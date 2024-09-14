@@ -21,18 +21,18 @@ public class Steaksword extends Item {
                 return AttributeModifiersComponent.builder()
                         .add(
                                 EntityAttributes.GENERIC_ATTACK_DAMAGE,
-                                new EntityAttributeModifier(BASE_ATTACK_DAMAGE_MODIFIER_ID, 99999.0, EntityAttributeModifier.Operation.ADD_VALUE),
+                                new EntityAttributeModifier(BASE_ATTACK_DAMAGE_MODIFIER_ID, 100.0, EntityAttributeModifier.Operation.ADD_VALUE),
                                 AttributeModifierSlot.MAINHAND
                         )
                         .add(
                                 EntityAttributes.GENERIC_ATTACK_SPEED,
-                                new EntityAttributeModifier(BASE_ATTACK_SPEED_MODIFIER_ID, -2.9F, EntityAttributeModifier.Operation.ADD_VALUE),
+                                new EntityAttributeModifier(BASE_ATTACK_SPEED_MODIFIER_ID, -0F, EntityAttributeModifier.Operation.ADD_VALUE),
                                 AttributeModifierSlot.MAINHAND
                         )
                         .build();
         }
         public static ToolComponent createToolComponent() {
-        return new ToolComponent(List.of(), 1.0F, 2);
+        return new ToolComponent(List.of(), 1.0F, 999999);
         }
 
 }

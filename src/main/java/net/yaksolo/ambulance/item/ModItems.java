@@ -11,7 +11,7 @@ import net.yaksolo.ambulance.Ambulance;
 
 
 public class ModItems {
-    public static final Item STEAKSWORD = registerItem("steaksword", new Steaksword(new Item.Settings().maxCount(1).maxDamage(25565)
+    public static final Item STEAKSWORD = registerItem("steaksword", new Steaksword(new Item.Settings().maxCount(1).maxDamage(256)
             .attributeModifiers(Steaksword.createAttributeModifiers())
             .component(DataComponentTypes.TOOL, Steaksword.createToolComponent())));
 
