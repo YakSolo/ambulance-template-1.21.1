@@ -4,18 +4,18 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.yaksolo.ambulance.Ambulance;
-
-import java.rmi.registry.Registry;
 
 public class ModItemGroups {
     public static final ItemGroup AMBULANCE = Registry.register(Registries.ITEM_GROUP, Ambulance.id("ambulance"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ambulance"))
-                    .icon()) -> new ItemStack(ModItems.LGBTQBAR)).entries((displayContext,entries) -> {
-                        entries.add(ModItems.LGBTQBAR);
+                    .icon(() -> new ItemStack(ModItems.LGBTQBAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STEAKSWORD);
-    }).build());
+                        entries.add(ModItems.LGBTQBAR);
+                    }).build());
+
 public static void registerItemGroups() {
     Ambulance.LOGGER.info("Registering Item Groups for " + Ambulance.MOD_ID);
 
