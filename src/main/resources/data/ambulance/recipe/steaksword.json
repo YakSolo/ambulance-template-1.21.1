@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "ambulance:lgbtqbar"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:dragon_egg"
+    },
+    "L": {
+      "item": "minecraft:nether_star"
+    },
+    "Y": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "DYD",
+    "LAL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ambulance:steaksword"
+  }
+}
