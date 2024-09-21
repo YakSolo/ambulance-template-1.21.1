@@ -1,8 +1,8 @@
 {
   "item.ambulance.steaksword": "Sticksword",
-  "item.ambulance.lgbtqbar": "§cR§6a§ei§an§3b§1o§5w Ingot",
+  "item.ambulance.lgbtqbar": "§cR§6a§ei§an§3b§1o§5w §fIngot",
 
-  "block.ambulance.rainbow_block": "§cR§6a§ei§an§3b§1o§5w Block",
+  "block.ambulance.rainbow_block": "§cR§6a§ei§an§3b§1o§5w §fBlock",
 
   "itemgroup.ambulance": "Ambulance"
 }
