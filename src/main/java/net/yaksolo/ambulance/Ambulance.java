@@ -2,6 +2,7 @@ package net.yaksolo.ambulance;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
+import net.yaksolo.ambulance.block.ModBlocks;
 import net.yaksolo.ambulance.item.ModItemGroups;
 import net.yaksolo.ambulance.item.ModItems;
 import net.yaksolo.ambulance.misc.ModModifiers;
@@ -18,6 +19,7 @@ public class Ambulance implements ModInitializer {
 		ModModifiers.changeItems();
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 
 	}
 	public static Identifier id(String name){

@@ -7,6 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.yaksolo.ambulance.Ambulance;
+import net.yaksolo.ambulance.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup AMBULANCE = Registry.register(Registries.ITEM_GROUP, Ambulance.id("ambulance"),
@@ -14,6 +15,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.LGBTQBAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STEAKSWORD);
                         entries.add(ModItems.LGBTQBAR);
+
+                        entries.add(ModBlocks.RAINBOW_BLOCK);
                     }).build());
 
 public static void registerItemGroups() {

@@ -13,6 +13,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.yaksolo.ambulance.Ambulance;
 
 public class ModBlocks {
+    public static final Block RAINBOW_BLOCK = registerBlock("rainbow_block", new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Ambulance.id(name), block);
