@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "minecraft:emerald_block"},
+    {"item": "minecraft:redstone_block"},
+    {"item": "minecraft:amethyst_block"},
+    {"item": "minecraft:lapis_block"},
+    {"item": "minecraft:gold_block"},
+    {"item": "minecraft:diamond_block"}
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "ambulance:lgbtqbar"
+  }
+}
