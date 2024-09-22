@@ -12,9 +12,9 @@ import net.yaksolo.ambulance.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup AMBULANCE = Registry.register(Registries.ITEM_GROUP, Ambulance.id("ambulance"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ambulance"))
-                    .icon(() -> new ItemStack(ModItems.LGBTQBAR)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.RAINBOW_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STEAKSWORD);
-                        entries.add(ModItems.LGBTQBAR);
+                        entries.add(ModItems.RAINBOW_INGOT);
 
                         entries.add(ModBlocks.RAINBOW_BLOCK);
                     }).build());

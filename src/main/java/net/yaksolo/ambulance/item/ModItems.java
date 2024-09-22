@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item STEAKSWORD = registerItem("steaksword", new Steaksword(new Item.Settings().maxCount(1).maxDamage(25565)
             .attributeModifiers(Steaksword.createAttributeModifiers())
             .component(DataComponentTypes.TOOL, Steaksword.createToolComponent())));
-    public static final Item LGBTQBAR = registerItem("lgbtqbar", new Item(new Item.Settings()));
+    public static final Item RAINBOW_INGOT = registerItem("rainbow_ingot", new Item(new Item.Settings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 

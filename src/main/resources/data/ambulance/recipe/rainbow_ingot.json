@@ -7,11 +7,12 @@
     {"item": "minecraft:amethyst_block"},
     {"item": "minecraft:lapis_block"},
     {"item": "minecraft:gold_block"},
-    {"item": "minecraft:diamond_block"}
+    {"item": "minecraft:diamond_block"},
+    {"item": "minecraft:copper_block"}
 
   ],
   "result": {
     "count": 1,
-    "id": "ambulance:lgbtqbar"
+    "id": "ambulance:rainbow_ingot"
   }
 }
