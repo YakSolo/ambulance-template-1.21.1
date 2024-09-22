@@ -29,5 +29,5 @@ public class ModItems {
 
     public static void registerModItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
-    }
+    }//
 }
