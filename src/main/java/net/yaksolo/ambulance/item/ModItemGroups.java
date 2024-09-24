@@ -15,6 +15,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RAINBOW_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STEAKSWORD);
                         entries.add(ModItems.RAINBOW_INGOT);
+                        entries.add(ModItems.LIFEOFRUIT);
 
                         entries.add(ModBlocks.RAINBOW_BLOCK);
                     }).build());

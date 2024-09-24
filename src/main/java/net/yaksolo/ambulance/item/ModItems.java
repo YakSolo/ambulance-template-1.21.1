@@ -16,6 +16,8 @@ public class ModItems {
             .component(DataComponentTypes.TOOL, Steaksword.createToolComponent())));
     public static final Item RAINBOW_INGOT = registerItem("rainbow_ingot", new Item(new Item.Settings()));
 
+    public static final Item LIFEOFRUIT = registerItem("lifeofruit", new Item(new Item.Settings()));
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 
     }
