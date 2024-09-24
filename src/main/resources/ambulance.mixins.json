@@ -6,6 +6,13 @@
 		"ExampleMixin",
 		"SnowGolemEntityMixin"
 	],
+	"client": [
+		"client.AInventoryScreenMixin",
+		"client.GameHudAccessor",
+		"client.GameHudMixin",
+		"client.HandledScreenAccessor",
+		"client.ScreenAccessor"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
