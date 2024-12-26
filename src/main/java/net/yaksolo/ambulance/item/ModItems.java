@@ -3,6 +3,7 @@ package net.yaksolo.ambulance.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.BannerPatternsComponent;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -17,6 +18,10 @@ public class ModItems {
     public static final Item RAINBOW_INGOT = registerItem("rainbow_ingot", new Item(new Item.Settings()));
 
     public static final Item LIFEOFRUIT = registerItem("lifeofruit", new Item(new Item.Settings().food(ModFoodComponents.LIFEOFRUIT)));
+
+    public static final Item BUCKLER = registerItem(
+            "buckler", new BucklerItem(new Item.Settings().maxDamage(336))
+    );
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
 

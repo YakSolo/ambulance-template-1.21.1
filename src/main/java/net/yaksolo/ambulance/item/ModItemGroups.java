@@ -16,6 +16,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STEAKSWORD);
                         entries.add(ModItems.RAINBOW_INGOT);
                         entries.add(ModItems.LIFEOFRUIT);
+                        entries.add(ModItems.BUCKLER);
 
                         entries.add(ModBlocks.RAINBOW_BLOCK);
                     }).build());

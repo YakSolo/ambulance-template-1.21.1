@@ -4,7 +4,12 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin",
-		"SnowGolemEntityMixin"
+		"SnowGolemEntityMixin",
+		"TreeConfiguredFeaturesMixin",
+		"LivingEntityAccessor",
+		"LivingEntityMixin",
+		"PlayerEntityMixin",
+		"PlayerEntityAccessor"
 	],
 	"client": [
 		"client.AInventoryScreenMixin",
